@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghome"
+    tools:context=".MiniGames.MatchActivity">
+
+
+    <TextView
+        android:id="@+id/memoryGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:background="#90ffffff"
+        android:backgroundTint="@color/black"
+        android:drawablePadding="20sp"
+        android:gravity="center_horizontal"
+        android:text="@string/g_se_te_pe_fiecare_r_nd_figura_care_face_acela_i_lucru_ca_figura_model_din_st_nga_scrie_litera_care_reprezinta_figura_corecta_n_chenarul_din_st_nga"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/match1"
+        android:layout_width="700dp"
+        android:layout_below="@id/memoryGame"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_height="120dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/match2" />
+
+    <EditText
+        android:id="@+id/ans1"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/match1"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="5dp"
+        android:background="#90ffffff"
+        android:backgroundTint="@color/white"
+        android:hint="@string/r_spuns" />
+
+    <ImageView
+        android:id="@+id/match2"
+        android:layout_width="700dp"
+        android:layout_below="@id/ans1"
+        android:layout_marginTop="2dp"
+
+        android:layout_marginStart="10dp"
+        android:layout_height="120dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/match1" />
+
+
+    <EditText
+        android:id="@+id/ans2"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/match2"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="5dp"
+        android:background="#90ffffff"
+        android:backgroundTint="@color/white"
+        android:hint="@string/r_spuns" />
+
+    <ImageButton
+        android:id="@+id/continueGame"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_gravity="left"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="670dp"
+        android:background="@drawable/continue_game"
+        android:clickable="false"
+        android:contentDescription="@string/play"
+        />
+</RelativeLayout>

@@ -1,0 +1,51 @@
+spring:
+  datasource:
+    url: ${JDBC_DATABASE_URL:jdbc:mysql://myadhd.c9jeqi6hneb5.us-east-1.rds.amazonaws.com:3306/myadhd}
+    username: ${JDBC_DATABASE_USERNAME:arina}
+    password: ${JDBC_DATABASE_PASSWORD:myadhdpass}
+    dbcp2:
+      max-wait-millis: 30000
+      validation-query: SELECT 1
+      validation-query-timeout: 30
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+        id:
+          new_generator_mappings: true
+
+secret:
+  key: "2F423F4528482B4D6251655468566D597133743677397A24432646294A404E63"
+
+server:
+  port: 8080
+
+map:
+  percentage:
+    0: 11
+    1: 29
+    2: 41
+    3: 51
+    4: 56
+    5: 64
+    6: 71
+    7: 77
+    8: 82
+    9: 87
+    10: 91
+    11: 94
+    12: 97
+    13: 98
+    14: 99
+    15: 99
+    16: 99
+    17: 99
+    18: 99
+    19: 99
+    20: 99
+

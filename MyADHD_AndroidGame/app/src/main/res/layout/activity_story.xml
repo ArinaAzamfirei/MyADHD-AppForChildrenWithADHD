@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Quiz.StoryActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/storyImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:loopCount="1"
+        />
+
+    <ImageButton
+        android:id="@+id/continueGame"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/continue_game"
+        android:clickable="false"
+        android:contentDescription="@string/play"
+        android:visibility="invisible"
+       />
+
+</RelativeLayout>

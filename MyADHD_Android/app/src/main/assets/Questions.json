@@ -1,0 +1,651 @@
+[
+  {
+    "number" : 1,
+    "text":"Este fericit(ă), vesel(ă) și are o atitudine pozitivă.",
+    "qtype":"1100"
+  }
+,
+  {
+    "number" : 2,
+    "text":"Este uituc(ă) în activitățile zilnice.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 3,
+    "text":"Vorbește prea mult.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 4,
+    "text":"Este îngrijorat(ă) de multe lucruri.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 5,
+    "text":"Ortografia este slabă.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 6,
+    "text":"Chiulește de la ore.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 7,
+    "text":"Nu înțelege ce citește.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 8,
+    "text":"Este o companie amuzantă.",
+    "qtype":"1100"
+  }
+,
+  {
+    "number" : 9,
+    "text":"Are o bună capacitate de a memora lucruri.",
+    "qtype":"3210"
+  }
+,
+  {
+    "number" : 10,
+    "text":"Nu este invitat(ă) să se joace sau să iasă afară cu alții",
+    "qtype":" "
+  }
+,
+  {
+    "number" : 11,
+    "text":"A forțat pe cineva să se implice într-o activitate sexuală.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 12,
+    "text":"Are dificultăți în a rămâne concentrat(ă) asupra unui singur lucru la un anumit moment.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 13,
+    "text":"Nu are prieteni.",
+    "qtype":" "
+  }
+,
+  {
+    "number" : 14,
+    "text":"Își pierde cumpătul.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 15,
+    "text":"Uită lucrurile deja învățate.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 16,
+    "text":"Intimidează, amenință sau îi sperie pe ceilalți.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 17,
+    "text":"Se simte lipsit(ă) de valoare.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 18,
+    "text":"Nu înțelege ce îl(o) face fericit(ă).",
+    "qtype":"0011"
+  }
+,
+  {
+    "number" : 19,
+    "text":"Se agită",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 20,
+    "text":"Are dificultăți în controlarea grijilor sale.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 21,
+    "text":"Dă vina pe alții pentru comportamentele și greșelile sale inadecvate.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 22,
+    "text":"Este rece și crud(ă)",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 23,
+    "text":"Nu își poate menține atenția decât pentru perioade scurte de timp.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 24,
+    "text":"Are dificultăți în a-și păstra prietenii.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 25,
+    "text":"Plânge des și cu ușurință.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 26,
+    "text":"Nu poate face lucrurile corect.",
+    "qtype":"0011"
+  }
+,
+  {
+    "number" : 27,
+    "text":"Folosește o armă ( de exemplu bâtă, cărămidă, sticlă spartă, cuțit sau pistol.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 28,
+    "text":"Evită sau îi displac lucrurile care cer efort sau nu sunt distractive.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 29,
+    "text":"I se schimbă dispoziția rapid și drastic.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 30,
+    "text":"începe inteționat certuri cu ceilalți.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 31,
+    "text":"Face greșeli.",
+    "qtype":"1000"
+  }
+,
+  {
+    "number" : 32,
+    "text":"Este dificil de mulțumit sau de amuzat.",
+    "qtype":"0011"
+  }
+,
+  {
+    "number" : 33,
+    "text":"Spune adevărul, nu spune nici măcar minciuni nevinovate.",
+    "qtype":"0001"
+  }
+,
+  {
+    "number" : 34,
+    "text":"Nu reușește să ducă la bun sfârșit lucruri începute.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 35,
+    "text":"Nu pare să asculte ce i se spune.",
+    "qtype":"0123"
+  }
+,{
+  "number" : 36,
+  "text":"Are dificultăți cu cititul.",
+  "qtype":"0123"
+}
+,
+  {
+    "number" : 37,
+    "text":"Are dificultăți cu începerea de activități sau proiecte. ",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 38,
+    "text":"Trebuie să se străduiască să finalizeze sarcinile grele.",
+    "qtype":"1000"
+  }
+,
+  {
+    "number" : 39,
+    "text":"Rănește fizic oamenii.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 40,
+    "text":"Cererile sale trebuie îndeplinite imediat - devine frustrat(ă) cu ușurință.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 41,
+    "text":"Este crud(ă) cu animalele.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 42,
+    "text":"Este greu de motivat (chiar și cu recompense cu bomboane sau bani ). ",
+    "qtype":"0011"
+  }
+,
+  {
+    "number" : 43,
+    "text":"Se grăbește să dea răspunsuri înainte de a se sfârși întrebarea.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 44,
+    "text":"Are dificultăți să se concentreze.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 45,
+    "text":"Se mișcă întruna.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 46,
+    "text":"Spune minciuni pentru a răni alți oameni.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 47,
+    "text":"Nu acordă atenție detaliilor, face greșeli din neatenție.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 48,
+    "text":"Este supărat(ă) și plin(ă) de resentimente.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 49,
+    "text":"Are dificultăți cu a trece de la o activitate la alta.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 50,
+    "text":"Excitabil(ă), impulsiv(ă).",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 51,
+    "text":"Are nevoie de explicații suplimentare ale intruscțiunilor.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 52,
+    "text":"Devine supra-stimulat(ă).",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 53,
+    "text":"Învată informațiile ca elemente separate, nu înțelege imaginea de ansamblu.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 54,
+    "text":"Se comportă de parcă ar fi monitorizat(ă).",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 55,
+    "text":"Spune direct primul lucru pe care îl gândește.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 56,
+    "text":"Minte pentru a evita să facă ceva sau pentru a obține lucruri.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 57,
+    "text":"Încearcă să se răzbune pe oameni.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 58,
+    "text":"Fură pe furiș (de exemplu furtul din magazine).",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 59,
+    "text":"Enervează alți oameni înadins.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 60,
+    "text":"Citește cu viteză redusă și cu mult efort.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 61,
+    "text":"Are dificultăți cu a-și aștepta rândul.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 62,
+    "text":"Este unul din ultimii aleși pentru a face parte dintr-o echipă sau la jocuri.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 63,
+    "text":"Finalizează proiectele în ultima clipă.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 64,
+    "text":"Interacționează bine cu altți copii.",
+    "qtype":"3210"
+  }
+,
+  {
+    "number" : 65,
+    "text":"Strică sau distruge intenționat lucruri care aparțin altora.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 66,
+    "text":"Pare obosit(ă), are un nivel de energie scăzut.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 67,
+    "text":"Este neantent(ă), este distras(ă) cu ușurință.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 68,
+    "text":"Nu urmează instrucțiunile (chiar și atunci când înțelege și încearcă să coopereze).",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 69,
+    "text":"Aleargă sau se cațără atunci când nu ar trebui să facă acest lucru.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 70,
+    "text":"Pare nervos(nervoasă) sau tensionat(ă).",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 71,
+    "text":"Este zgomotos(zgomotoasă) atunci când se joacă sau în timpul liber.",
+    "qtype":"0123"
+  }
+,
+
+  {
+    "number" : 72,
+    "text":"Știe să facă planuri dinainte.",
+    "qtype":"3210"
+  }
+,
+  {
+    "number" : 73,
+    "text":"Este iritabil(ă) și ușor de enervat de alții.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 74,
+    "text":"Se comportă ca un înger.",
+    "qtype":"0001"
+  }
+,
+  {
+    "number" : 75,
+    "text":"Uită să predea lucrări finalizate.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 76,
+    "text":"Fuge de acasă pentru cel puțin o noapte.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 77,
+    "text":"Se plictisește.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 78,
+    "text":"A dat foc intenționat cu scopul de a produce daune.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 79,
+    "text":"Nu reușește să îndeplinească activitățile școlare, sarcinile de acasă, sau alte activități (chiar și atunci când înțelege și încearcă să coopereze).",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 80,
+    "text":"Este răbdător(răbdătoare) chiar și atunci când așteaptă la rând mult timp.",
+    "qtype":"0001"
+  }
+,
+  {
+    "number" : 81,
+    "text":"Are izbucniri de temperament.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 82,
+    "text":"Și-a pierdut interesul sau plăcerea în activități.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 83,
+    "text":"Amenință să îi rănească pe alții.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 84,
+    "text":"Are dificultăți cu organizarea sarcinilor sau activităților.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 85,
+    "text":"Deranjează alți copii.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 86,
+    "text":"Înjură sau folosește un limbaj urât.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 87,
+    "text":"Nu poate înțelege aritmetica.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 88,
+    "text":"Renunță ușor atunci când sarcinile sunt dificile.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 89,
+    "text":"A intrat forțat în casa, clădirea sau mașina altcuiva.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 90,
+    "text":"Este dezordonat(ă) sau dezorganizat(ă).",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 91,
+    "text":"Iese afară naoptea, chiar dacă astfel încalcă regulile.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 92,
+    "text":"Nu știe să își facă prieteni.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 93,
+    "text":"Se ridică de pe scaun atunci când ar trebui să stea la locul său.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 94,
+    "text":"Refuză în mod activ să facă ceea ce îi spun adulții",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 95,
+    "text":"Are dificultăți cu a se concentra la lucru sau joacă pentru mult timp.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 96,
+    "text":"Comite furturi care presupun o interacțiune cu o altă persoană.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 97,
+    "text":"Pierde lucruri (de exemplu caietele, creioanele, cărțile, instrumentele sau jucăriile). ",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 98,
+    "text":"Se foiește sau se agită la locul său.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 99,
+    "text":"Este neliniștit(ă) sau excesiv de activ(ă).",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 100,
+    "text":"Devine iritabil(ă) atunci când este îngrijorat(ă).",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 101,
+    "text":"Este distras(ă) cu ușurință de imagini sau sunete.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 102,
+    "text":"Se ceartă cu adulții.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 103,
+    "text":"Este trist(ă), morocănos(morocănoasă) sau iritabil(ă) mai multe zile la rând.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 104,
+    "text":"Îi întrerupe pe ceilalți (de exemplu, intervine în conversații sau jocuri).",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 105,
+    "text":"Este perfect(ă) în orice privință.",
+    "qtype":"0001"
+  }
+,
+  {
+    "number" : 106,
+    "text":"Problemele copilului dumneaavoastră îi afectează serios activitatea școlară sau notele.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 107,
+    "text":"Problemele copilului dumneaavoastră îi afectează grav prieteniile și relațiile.",
+    "qtype":"0123"
+  }
+,
+  {
+    "number" : 108,
+    "text":"Problemele copilului dumneaavoastră îi afectează grav viața de familie.",
+    "qtype":"0123"
+  }
+
+
+]

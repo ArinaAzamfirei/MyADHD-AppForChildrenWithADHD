@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".myadhd.Activities.ControlPanelActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:onClick="logOut"
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="#80000000"
+        android:textSize="11sp"
+        android:textColor="@color/white"
+        android:scaleType="fitCenter"
+        android:text="@string/logout"
+        tools:ignore="UsingOnClickInXml" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/myProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:backgroundTint="#80000000"
+        android:gravity="center"
+        android:onClick="myProfile"
+        android:scaleType="fitCenter"
+        android:text="@string/profilul_meu"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        tools:ignore="UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/controlpanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70sp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/panou_de_control"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:onClick="addChild"
+        android:id="@+id/addChild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_below="@id/controlpanel"
+        android:layout_marginTop="15sp"
+        android:layout_marginStart="280sp"
+        android:backgroundTint="#80000000"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="@string/adaug_un_copil"
+        tools:ignore="UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/myChildren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/controlpanel"
+        android:layout_marginTop="25sp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="casual"
+        android:text="@string/copiii_mei"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/myChildren"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" />
+
+
+</RelativeLayout>

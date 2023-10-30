@@ -1,0 +1,66 @@
+[
+  {
+    "description" : "Neatenție",
+    "name":"IN"
+  }
+,
+  {
+    "description" : "Hiperactivitate/Impulsivitate",
+    "name":"HY"
+  }
+,
+  {
+    "description" : "Probleme de învățare",
+    "name":"LP"
+  }
+,
+  {
+    "description" : "Funcționare executivă",
+    "name":"EF"
+  }
+,
+  {
+    "description" : "Agresivitate",
+    "name":"AG"
+  }
+,
+  {
+    "description" : "Relațiile cu semenii",
+    "name":"PR"
+  }
+,
+  {
+    "description" : "Indice global total Conners3",
+    "name":"GI"
+  }
+,
+  {
+    "description" : "ADHD Neatent",
+    "name":"AN"
+  }
+,
+  {
+    "description" : "ADHD Hiperactiv-Impulsiv",
+    "name":"AH"
+  }
+,
+  {
+    "description" : "Tulburare de comportament",
+    "name":"CD"
+  }
+,
+  {
+    "description" : "Tulburare de opoziție",
+    "name":"OD"
+  }
+,
+  {
+    "description" : "Impresie Pozitivă",
+    "name":"PI"
+  }
+  ,
+  {
+    "description" : "Impresie Negativă",
+    "name":"NI"
+  }
+]

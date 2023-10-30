@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".MiniGames.MemGame1"
+    tools:ignore="ExtraText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_marginTop="100dp">
+
+        <ImageView
+            android:id="@+id/guess11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bg" />
+
+
+        <ImageView
+            android:id="@+id/guess12"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bg">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/guess13"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bg">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/guess14"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bg">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/guess21"
+            android:layout_width="105dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bg">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/guess22"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bg">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/guess23"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bg">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/guess24"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bg">
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

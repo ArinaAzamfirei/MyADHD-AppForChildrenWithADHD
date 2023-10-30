@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstname"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/lastname"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/age"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gender"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/testBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="270dp"
+        android:backgroundTint="#80000000"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        android:layout_below="@id/code"
+        android:text="@string/incepe_testul" />
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="#80000000"
+        android:textColor="@color/white"
+        android:layout_below="@id/code"
+        android:textSize="11sp"
+        android:text="@string/terge" />
+    <Button
+        android:id="@+id/resultsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:backgroundTint="#80000000"
+        android:textColor="@color/white"
+        android:layout_below="@id/code"
+        android:textSize="11sp"
+        android:text="@string/vezi_rezultate" />
+
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:screenOrientation="portrait"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Myadhd"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".myadhd.Activities.DiagnosticActivity"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".myadhd.Activities.UserProfileActivity"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".myadhd.Activities.AddChildActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Dialog">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".myadhd.Activities.UpdateUserProfileActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Dialog">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name=".myadhd.Activities.QuizActivity"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".myadhd.Activities.ControlPanelActivity"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".myadhd.Activities.SignUpActivity"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".myadhd.Activities.LogInActivity"
+            android:exported="true"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MyADHD Game</string>
+    <string name="play">Play</string>
+    <string name="game_name"> ADHD Cat\'s Adventures</string>
+    <string name="restart">Restart</string>
+    <string name="exit">Exit</string>
+    <string name="personal_best">Personal best:</string>
+    <string name="_60">60</string>
+    <string name="points">Points:</string>
+    <string name="_30">30</string>
+    <string name="introdu_codul">Introdu codul</string>
+    <string name="title_activity_story">StoryActivity</string>
+    <string name="joc_de_memorie">JOC DE MEMORIE</string>
+    <string name="pc">PC:</string>
+    <string name="p">P:</string>
+    <string name="r_spunde_corect_la_ntrebare_pentru_a_primi_puncte_bonus">Răspunde corect la întrebare pentru a primi puncte bonus!</string>
+    <string name="ntrebare">Întrebare</string>
+    <string name="option_1">option 1</string>
+    <string name="option_2">option 2</string>
+    <string name="option_3">option 3</string>
+    <string name="option_4">option 4</string>
+    <string name="r_spuns">Răspuns</string>
+    <string name="g_se_te_pe_fiecare_r_nd_figura_care_face_acela_i_lucru_ca_figura_model_din_st_nga_scrie_litera_care_reprezinta_figura_corecta_n_chenarul_din_st_nga">Găsește pe fiecare rând figura care face același lucru ca figura model din stânga. Scrie litera care reprezintă figura corectă în chenarul din stânga.</string>
+    <string name="num_r_c_te_p_s_ri_se_uit_spre_dreapta_i_c_te_spre_st_nga">Numără câte păsări se uită spre dreapta și câte spre stânga</string>
+    <string name="cel_mai_bun_scor">Cel mai bun scor:</string>
+
+</resources>

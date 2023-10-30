@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bghome"
+    tools:context=".MiniGames.MemGame1"
+    tools:ignore="ExtraText">
+
+    <include
+        layout="@layout/images"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="400dp" />
+    <TextView
+        android:id="@+id/memoryGamePoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#90ffffff"
+        android:backgroundTint="@color/black"
+        android:drawablePadding="20sp"
+        android:gravity="center_horizontal"
+        android:text="Scor: "
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/memoryGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="20dp"
+        android:background="#90ffffff"
+        android:backgroundTint="@color/black"
+        android:drawablePadding="20sp"
+        android:gravity="center_horizontal"
+        android:text="@string/joc_de_memorie"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+<!--    <TextView-->
+<!--        android:id="@+id/memPCGame"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="680dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:background="#90ffffff"-->
+<!--        android:backgroundTint="@color/black"-->
+<!--        android:drawablePadding="20sp"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:text="P2: "-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="40sp"-->
+<!--        android:textStyle="bold">-->
+<!--    </TextView>-->
+
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    android:background="@drawable/background"
+    tools:context=".myadhd.Activities.AddChildActivity"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:text="X"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+    />
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="2sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="10sp"
+        android:fontFamily="@font/lato"
+        android:gravity="center"
+        android:text="@string/adaug_un_copil"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_up"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="2sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="10sp"
+        android:background="#80ffffff"
+        android:drawableStart="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="20sp"
+        android:hint="@string/name"
+        android:padding="10sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="8sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="10sp"
+        android:background="#80ffffff"
+        android:drawableStart="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="20sp"
+        android:hint="@string/lname"
+        android:padding="10sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lname"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="8sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="10sp"
+        android:background="#80ffffff"
+        android:drawableStart="@drawable/ic_baseline_sentiment_satisfied_alt_24"
+        android:drawablePadding="20sp"
+        android:hint="@string/v_rst"
+        android:padding="10sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/age"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="8sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="10sp"
+        android:background="#80ffffff"
+        android:drawableStart="@drawable/ic_baseline_interests_24"
+        android:drawablePadding="20sp"
+        android:hint="@string/gen"
+        android:padding="10sp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gender"
+        android:layout_centerVertical="true">
+
+        <RadioButton
+            android:id="@+id/girl"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:text="Fată"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/boy"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:text="Băiat"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/addChildBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radio_group"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:backgroundTint="@color/white"
+        android:scaleType="fitCenter"
+        android:text="@string/adaug" />
+</RelativeLayout>

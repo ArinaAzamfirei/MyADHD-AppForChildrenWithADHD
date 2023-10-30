@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:padding="16sp"
+    android:layout_height="match_parent"
+    tools:context=".myadhd.Activities.QuizActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/controlpanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#80000000"
+        android:layout_marginStart="250dp"
+        android:gravity="center"
+        android:onClick="controlPanel"
+        android:scaleType="fitCenter"
+        android:text="@string/panou_de_contrl"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="2dp" />
+    <TextView
+        android:id="@+id/text_view_question_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="30sp"
+        android:textSize="20sp"
+        android:fontFamily="casual"
+        android:text="@string/ntrebarea_1_x"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/text_view_statement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text_view_question"
+        android:layout_marginTop="50sp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="@string/values"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/text_view_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/radio_group"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="@string/aici_va_fi_intrebarea"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <RadioButton
+            android:id="@+id/radio_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option_1" />
+
+        <RadioButton
+            android:id="@+id/radio_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option_2" />
+
+        <RadioButton
+            android:id="@+id/radio_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option_3" />
+
+        <RadioButton
+            android:id="@+id/radio_button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option_4" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_confirm_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radio_group"
+        android:layout_marginTop="50dp"
+        android:text="Confirmă"
+        android:backgroundTint="#80ffffff"
+        android:textColor="@color/black"/>
+
+
+</RelativeLayout>
